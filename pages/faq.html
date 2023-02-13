@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-md">
         <div class="container-fluid">
-            <a href="#" class="navbar-brand">
+            <a href="../index.html" class="navbar-brand">
                 <img src="../img/logo-CAC.webp" alt="codo a codo" width="70" height="35">
             </a>
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion"> 
@@ -25,10 +25,10 @@
         <div id="MenuNavegacion" class="collapse navbar-collapse">
             <ul class="navbar-nav ms-3">
                 <li class="nav-item m-2">
-                    <a class="nav-link nav-link-shadow active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link nav-link-shadow " aria-current="page" href="../index.html">Home</a>
                 </li>
                 <li class="nav-item m-2">
-                    <a class="nav-link nav-link-shadow" href="#">FAQ</a>
+                    <a class="nav-link nav-link-shadow active" href="#">FAQ</a>
                 </li>
             </ul>
         </div>
@@ -36,7 +36,7 @@
    <!-- preguntas frecuentes -->
     <section class="container">
         <div class="col-12 text-center" data-aos="fade-up" data-aos-duration="900">
-            <h1 class="title pt-4 pb-2">Preguntas Frecuentes</h1>
+            <h1 class="title mt-3  pt-4 ">Preguntas Frecuentes</h1>
         </div>
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
@@ -54,7 +54,7 @@
                         Asistir a las clases sincrónicas dos veces por semana según días y horarios asignados.  De esta manera cumplir con el 65% de asistencia obligatoria. <br>
                         Realizar los ejercicios obligatorios en el Aula virtual. <br>
                         Realizar los trabajos prácticos grupales (en caso de ser solicitado por el/la docente).
-                        </div>
+                    </div>
                 </div>
             </div>
             <div class="accordion-item">
@@ -67,8 +67,8 @@
                 <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
                     data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">Para acceder a la plataforma de estudio deberán ingresar en: <br>
-                        <a href="http://aulasvirtuales.bue.edu.ar/">Aula Virtual</a> <br>
-                        Usuario: Tu nro de DNI <br>
+                        <a href="http://aulasvirtuales.bue.edu.ar/" target="_blank">Aula Virtual</a> <br>
+                        Usuario: Tu nro de DNI (Sin puntos ni guiones)<br>
                         Clave: Prueba!123</div>
                 </div>
             </div>
@@ -110,29 +110,21 @@
     </section>
     
     <!-- footer -->
-    <footer class="text-white py-4">
-        <div class="container">
-            <nav class="row">
-                <a href="#" class="col-md-4 col-sm-6 d-flex align-items-center justify-content-center mb-5">
-                    <img src="../img/logo-CAC.webp" alt="codo a codo" width="70" height="35">
-                </a>
-                <ul class="col-md-4 col-sm-6 list-unstyled d-flex align-items-center flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-footer active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-link-footer" href="#">FAQ</a>
-                    </li>
-                </ul>
-                <ul class="col-md-4 col-sm-12 list-unstyled d-flex flex-column align-items-center">
-                    <li class="font-weight-bold text-uppercase pt-3 pb-2">social networks</li>
-                    <li class="d-flex">
-                        <a href="https://instagram.com/programacodoacodo?igshid=NTdlMDg3MTY="><i class="fa-brands fa-instagram fa-2xl text-white icono"></i></a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </footer>
+    <footer id="footer" class=" text-light text-center mt-3 pb-2">
+   
+        <small class="text-center pt-5">Seguinos en nuestras redes sociales para más información!</small>
+       
+             <ul class="nav justify-content-center pt-3 pt-sm-3 pt-md-2 mb-md-2">
+     
+                <li class="nav-item">
+                    <a class="nav-link " href="https://es-la.facebook.com/codoacodooficial/" target="_blank"><img src="../img/facebook.png" alt="facebook" width="40"></a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link " href="https://www.instagram.com/programacodoacodo/" target="_blank"><img src="../img/instagram.png" alt="Instagram" width="40"></a>
+                </li>
+            </ul>
+   </footer>
 
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
